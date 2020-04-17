@@ -4,16 +4,19 @@
 }
 
 body {
-    background-color: #343a40;
+    background-color:  #1e8dfc;
+}
+.second {
+    background-color: #d7ee6f;
+    color: rgb(14, 13, 13);
 }
 
-.second {
-    background-color: #343a40;
-    color: #fff;
-}
 
 h1 {
-    color: #fff;
+    color: #3f0df3;
+    text-emphasis: initial;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .child,
