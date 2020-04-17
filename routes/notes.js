@@ -18,7 +18,7 @@ route.get('/', async(req, res) => {
 
     if (notes.length === 0) {
 
-        return res.status(404).send({ error: 'No notes defined for task ' + req.params.id })
+        return res.status(404).send({ error: 'No notes defined for this task ' + req.params.id })
 
     }
 
@@ -46,6 +46,6 @@ route.post('/', async(req, res) => {
 
         taskId: req.params.id
     })
-    res.status(201).send({ success: 'New Note added', data: newNote })
+    res.status(201).send({ success: 'Note added', data: newNote })
 })
 module.exports = route
