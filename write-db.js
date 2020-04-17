@@ -16,7 +16,7 @@ async function addTask() {
 
             title: 'Node-js',
 
-            description: 'Learning Basic of Node JS'
+            description: 'Learning Basics of Node JS'
 
         },
 
