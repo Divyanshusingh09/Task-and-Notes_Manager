@@ -1,0 +1,25 @@
+{
+  "name": "task-and-notes_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divyanshu0/Task-and-Notes_Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divyanshu0/Task-and-Notes_Manager/issues"
+  },
+  "homepage": "https://github.com/Divyanshu0/Task-and-Notes_Manager#readme",
+  "dependencies": {
+    "sequelize": "^5.21.6",
+    "server": "^1.0.27",
+    "sqlite3": "^4.1.1"
+  }
+}
